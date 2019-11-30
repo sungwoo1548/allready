@@ -24,7 +24,7 @@ export default function Header() {
 
     const TagSlider = ({ tags }) => (
         tags.map((data, ix) => (
-            <div className={tagSelect === ix ? "slider_item_selected" : "slider_item"}
+            <div key={data.id} className={tagSelect === ix ? "slider_item_selected" : "slider_item"}
                 onClick={() => { setTagSelect(ix) }}>
                 <span >{data.tag}</span>
             </div>
@@ -35,11 +35,11 @@ export default function Header() {
         <header className="headerSection">
             <div className="slider">
                 <TagSlider tags={tags} />
-                <img className="slider_left btn" src={img_left_arrow} />
-                <img className="slider_right btn" src={img_right_arrow} />
+                <img className="slider_left btn" src={img_left_arrow} alt="" />
+                <img className="slider_right btn" src={img_right_arrow} alt="" />
             </div>
             <div>
-                <img className="intro" src={img_intro} />
+                <img className="intro" src={img_intro} alt="" />
             </div>
         </header>
     )
