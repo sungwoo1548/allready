@@ -5,6 +5,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import Header from './Header';
 import SearchBar from './SearchBar';
 import Main from './Main'
+import Post from './Post'
 
 // Navigation
 import Nav from './Nav';
@@ -18,6 +19,7 @@ function App() {
       <Header />
 
       <Route exact path="/" component={Main} />
+      <Post />
     </BrowserRouter>
   );
 }
