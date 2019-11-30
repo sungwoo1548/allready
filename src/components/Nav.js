@@ -2,43 +2,44 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import "../static/css/Nav.css";
 
-import img_logo from '../static/img/logo.png';
-import img_plus from '../static/img/plus_circle.png';
-import img_like from '../static/img/like.png'
-import img_bell from '../static/img/bell.png'
-import img_chef from '../static/img/chef.png'
-import img_three from '../static/img/three-line.png'
+import img_logo from '../static/img/Nav/logo.png';
+import img_new_recipe from '../static/img/Nav/new_recipe.png';
+import img_like from '../static/img/Nav/like.png'
+import img_bell from '../static/img/Nav/bell.png'
+import img_chef from '../static/img/Nav/chef.png'
+import img_three from '../static/img/Nav/three-line.png'
 
 export default function Nav() {
     return (
         <nav className="navigation">
-            <img src={img_logo} alt="" />
+            <Link>
+                <img className="img_logo" src={img_logo} alt="" />
+            </Link>
 
             <section>
-                <div className="btn_newRecipe">
+                <div className="btn_img">
                     <Link >
-                        <img src={img_plus} alt="" />
-                        새 레시피
+                        <img className="img_new_recipe" src={img_new_recipe} alt="" />
                     </Link>
                 </div>
                 <div className="btn_img">
                     <Link>
-                        <img src={img_like} alt="" />
+                        <img className="img_btn" src={img_like} alt="" />
                     </Link>
                 </div>
                 <div className="btn_img">
                     <Link>
-                        <img src={img_bell} alt="" />
+                        <img className="img_btn" src={img_bell} alt="" />
                     </Link>
                 </div>
                 <div className="btn_img">
                     <Link>
-                        <img src={img_chef} alt="" />
+                        <img className="img_btn_more" src={img_chef} alt="" />
                     </Link>
                 </div>
                 <div className="btn_img">
                     <Link>
-                        <img src={img_three} alt="" />
+                        <img className="img_btn" src={img_three} alt="" />
                     </Link>
                 </div>
             </section>

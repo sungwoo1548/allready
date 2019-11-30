@@ -6,7 +6,7 @@
     justify-content: space-between;
 }
 
-.navigation img {
+.img_logo {
     height: 5rem;
 }
 
@@ -22,33 +22,6 @@
 
 /*===================================*/
 
-.btn_newRecipe {
-    display: flex;
-    border-radius: 5px;
-    background-color: rgb(247, 63, 39);
-    justify-content: center;
-    align-items: center;
-}
-
-.btn_newRecipe a {
-    display: flex;
-    flex: 1;
-    padding: 10px;
-    color: aliceblue;
-    text-decoration-line: none;
-    justify-content: center;
-    align-items: center;
-}
-
-.btn_newRecipe a img {
-    width: 1.5rem;
-    height: 1.5rem;
-    padding-top: 2px;
-    padding-right: 2px;
-}
-
-/*===================================*/
-
 .btn_img {
     display: flex;
     justify-content: center;
@@ -60,7 +33,13 @@
     flex: 1;
 }
 
-.btn_img a img {
-    width: 2rem;
+.img_new_recipe{
+    height: 2.5rem;
+}
+
+.img_btn{
+    height: 1.5rem;
+}
+.img_btn_more{
     height: 2rem;
 }
