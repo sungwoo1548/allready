@@ -1,0 +1,30 @@
+.mainSection {
+    width: 70%;
+    margin: 2rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.how_about {
+    margin: 2rem 0 2rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.how_about img {
+    width: 24%;
+}
+
+.recomand {
+    margin: 2rem 0 2rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.recomand img {
+    width: 49%;
+}
