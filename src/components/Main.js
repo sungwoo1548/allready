@@ -1,7 +1,9 @@
 import React from 'react';
 
+// Style Sheet
 import "../static/css/Main.css";
 
+// Image
 import img_how_1 from '../static/img/Header/how_1.png';
 import img_how_2 from '../static/img/Header/how_2.png';
 import img_how_3 from '../static/img/Header/how_3.png';
@@ -9,8 +11,6 @@ import img_how_4 from '../static/img/Header/how_4.png';
 
 import img_recomand_1 from '../static/img/Header/recomand_1.png';
 import img_recomand_2 from '../static/img/Header/recomand_2.png';
-
-
 
 export default function main() {
     return (
